@@ -34,3 +34,4 @@ To Do:
 * References to modules are by name and not using relative path.  Seems to be how gulp-traceur is naming them
 * Add example of type safety calling sum
 * No controllers!
+* Currently using fork of gulp-traceur for new Traceur API fixes.  Update to canon gulp-traceur when fork is merged
