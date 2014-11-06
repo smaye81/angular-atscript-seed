@@ -1,0 +1,10 @@
+import {Router} from 'router.ats';
+import {homeModule} from 'home/home.ats';
+import {Something} from 'something.ats';
+
+var appModule = angular.module("App", ["ui.router", homeModule.name]);
+
+appModule.config(Router);
+
+var s = new Something();
+console.log(s.sum(5, 5));
