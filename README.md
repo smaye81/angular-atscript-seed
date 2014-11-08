@@ -24,7 +24,7 @@ DO THE FOLLOWING THE FIRST TIME RUNNING THE APP
 * Run `bower install` from project root
 * Run `gulp copy-runtime` from project root
 
-
+DO THE FOLLOWING THEREAFTER
 * Run `gulp` from the project root
 * Navigate to localhost:9000
 * $$$
