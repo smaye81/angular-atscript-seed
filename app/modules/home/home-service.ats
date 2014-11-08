@@ -1,9 +1,11 @@
 function HomeService ($q) {
 
-    this.getGreeting = function (name = "Noname McDefault") {
+    this.getGreeting = function (name:string = "Noname McDefault") {
 
         return $q(resolve => resolve("Hello, " + name + ".  Welcome to Angular in AtScript!!"));
     };
 }
 
 export var HomeService = ['$q', HomeService];
+
+

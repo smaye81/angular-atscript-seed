@@ -3,3 +3,10 @@ export class Something {
         return a + b;
     }
 }
+
+class Inject {}
+class Component {
+    constructor({selector:string}) {
+        this.selector = selector;
+    }
+}
