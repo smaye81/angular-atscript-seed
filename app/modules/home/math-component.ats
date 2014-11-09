@@ -10,12 +10,12 @@ function MathComponent () {
         },
         link : function (scope) {
 
-            var calculator = new Calculator();
+            let calculator = new Calculator();
 
             scope.calculate = function () {
 
-                var aNumber;
-                var bNumber;
+                let aNumber;
+                let bNumber;
                 if (!isNaN(scope.a)) {
                     aNumber = parseInt(scope.a, 10);
                 }
