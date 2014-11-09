@@ -1,7 +1,7 @@
 angular-atscript-seed
 ================
 
-Seed project using Angular and AtScript
+Seed project using Angular and AtScript with pure ES6 modules.  No dependency on Require or Browserify.
 
 Uses:
 
