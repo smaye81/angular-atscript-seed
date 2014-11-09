@@ -1,0 +1,34 @@
+import {Calculator} from './calculator.ats';
+
+function MathComponent () {
+
+    return {
+        restrict : "E",
+        templateUrl : "modules/home/math-component.html",
+        scope : {
+            name : "="
+        },
+        link : function (scope) {
+
+            var calculator = new Calculator();
+
+            scope.calculate = function () {
+
+                var aNumber;
+                var bNumber;
+                if (!isNaN(scope.a)) {
+                    aNumber = parseInt(scope.a, 10);
+                }
+
+                if (!isNaN(scope.b)) {
+                    bNumber = parseInt(scope.b, 10);
+                }
+
+                scope.sumResult = calculator.sum(aNumber, bNumber);
+                scope.diffResult = calculator.difference(aNumber, bNumber);
+            };
+        }
+    }
+}
+
+export var MathComponent = [MathComponent];

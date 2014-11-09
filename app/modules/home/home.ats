@@ -1,7 +1,12 @@
 export var homeModule = angular.module("Home", []);
 
-import {HomeController} from "home/home-controller.ats";
-import {HomeService} from "home/home-service.ats";
+// Components
+import {HomeComponent} from "./home-component.ats";
+import {MathComponent} from "./math-component.ats";
 
-homeModule.controller("HomeCtrl", HomeController);
+// Services
+import {HomeService} from "./home-service.ats";
+
+homeModule.directive("homeComponent", HomeComponent);
+homeModule.directive("mathComponent", MathComponent);
 homeModule.service("HomeService", HomeService);

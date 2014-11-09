@@ -29,13 +29,13 @@ DO THE FOLLOWING THEREAFTER
 * Navigate to localhost:9000
 * $$$
 
+Notes:
+* Currently using fork of gulp-traceur for new Traceur API fixes.  Update to canon gulp-traceur when fork is merged
+
+Wishes for a perfect world:
+* System.get is manually added in index.html.  Sort of sucks to have to do this
 
 To Do:
 
 * Tests
-* System.get is manually added in index.html.  Should be appended to file as traceur cli does
-* Copy correct assert.js file based on module type
-* References to modules are by name and not using relative path.  Seems to be how gulp-traceur is naming them
-* Add example of type safety calling sum
-* No controllers!
-* Currently using fork of gulp-traceur for new Traceur API fixes.  Update to canon gulp-traceur when fork is merged
+

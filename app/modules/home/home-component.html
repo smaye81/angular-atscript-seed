@@ -1,0 +1,10 @@
+<section>
+    <label for="name">What's your name?</label>
+    <input id="name" ng-model="name" type="text"/>
+    <button class="btn btn-primary" ng-click="sayHello()">Say Hello</button>
+    <div class="margin-top" ng-if="greeting">
+        <p>{{greeting}}</p>
+        <hr/>
+        <math-component name="name"></math-component>
+    </div>
+</section>
