@@ -3,6 +3,14 @@ angular-atscript-seed
 
 Seed project using Angular and AtScript with pure ES6 modules.  No dependency on Require or Browserify.
 
+Lovingly based on two repos:
+
+https://github.com/smaye81/angular-es6-seed
+
+and the Angular team's AtScript playground:
+
+https://github.com/angular/atscript-playground
+
 Uses:
 
 * Angular
@@ -11,8 +19,6 @@ Uses:
 * AtScript
 * Bootstrap
 * Gulp
-* Karma
-* Jasmine
 
 
 To run app:
