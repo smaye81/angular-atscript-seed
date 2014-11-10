@@ -1,7 +1,7 @@
 angular-atscript-seed
 ================
 
-Seed project using Angular and AtScript with pure ES6 modules.  No dependency on Require or Browserify.
+Seed project using Angular 1.3 and AtScript with pure ES6 modules.  No dependency on Require or Browserify.
 
 Lovingly based on two repos:
 
@@ -16,6 +16,7 @@ Uses:
 * Angular
 * Angular UI Router
 * Traceur
+* RTTS/Assert
 * AtScript
 * Bootstrap
 * Gulp
