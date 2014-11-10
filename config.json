@@ -7,7 +7,7 @@
     "typeAssertions": true,
     "typeAssertionModule": "assert",
     "annotations": true,
-    "sourceMaps": true,
+    "sourceMaps": false,
     "experimental" : true
   }
 }

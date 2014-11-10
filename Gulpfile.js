@@ -45,10 +45,10 @@ gulp.task('watch', function () {
 // Not working with current version of gulp-traceur
 gulp.task('traceur', function () {
     return gulp.src(SRC_PATH, {base: './app'})
-        .pipe(sourcemaps.init())
+        //.pipe(sourcemaps.init())
         .pipe(traceur(TRACEUR_OPTIONS))
         .pipe(concat('bundle.js'))
-        .pipe(sourcemaps.write())
+        //.pipe(sourcemaps.write())
         .pipe(gulp.dest('app/dist'));
 });
 

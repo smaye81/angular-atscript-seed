@@ -1,8 +1,11 @@
 function HomeService ($q) {
 
+    // ES6 : Default parameter
     this.getGreeting = function (name:string = "Noname McDefault") {
 
-        return $q(resolve => resolve("Hello, " + name + ".  Welcome to Angular in AtScript!!"));
+        // ES6 : Fat arrow syntax
+        // ES6 : Template literal
+        return $q(resolve => resolve(`Hello, ${name}.  Welcome to Angular in AtScript!!`));
     };
 }
 
