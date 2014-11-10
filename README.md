@@ -24,14 +24,14 @@ Uses:
 
 To run app:
 
-DO THE FOLLOWING THE FIRST TIME RUNNING THE APP
+**DO THE FOLLOWING THE FIRST TIME RUNNING THE APP**
 * Clone repo
 * Install Gulp globally using `npm install gulp -g`
 * Run `npm install` from project root
 * Run `bower install` from project root
 * Run `gulp copy-runtime` from project root
 
-DO THE FOLLOWING THEREAFTER
+**DO THE FOLLOWING THEREAFTER**
 * Run `gulp` from the project root
 * Navigate to localhost:9000
 * $$$
