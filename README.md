@@ -37,4 +37,8 @@ DO THE FOLLOWING THEREAFTER
 
 **To Do:**
 * Tests
+* Get sourcemaps working again
+* More examples of AtScript (annotations, etc.)
+* More examples of ES6
+* Usage of future Angular modules (di.js, prophecy.js)
 
