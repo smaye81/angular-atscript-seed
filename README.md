@@ -1,30 +1,37 @@
 angular-atscript-seed
 ================
 
-Seed project using Angular and AtScript with pure ES6 modules.  No dependency on Require or Browserify.
+Seed project using Angular 1.3 and AtScript with pure ES6 modules.  No dependency on Require or Browserify.
+
+Lovingly based on two repos:
+
+https://github.com/smaye81/angular-es6-seed
+
+and the Angular team's AtScript playground:
+
+https://github.com/angular/atscript-playground
 
 Uses:
 
 * Angular
 * Angular UI Router
 * Traceur
+* RTTS/Assert
 * AtScript
 * Bootstrap
 * Gulp
-* Karma
-* Jasmine
 
 
 To run app:
 
-DO THE FOLLOWING THE FIRST TIME RUNNING THE APP
+**DO THE FOLLOWING THE FIRST TIME RUNNING THE APP**
 * Clone repo
 * Install Gulp globally using `npm install gulp -g`
 * Run `npm install` from project root
 * Run `bower install` from project root
 * Run `gulp copy-runtime` from project root
 
-DO THE FOLLOWING THEREAFTER
+**DO THE FOLLOWING THEREAFTER**
 * Run `gulp` from the project root
 * Navigate to localhost:9000
 * $$$
@@ -34,4 +41,8 @@ DO THE FOLLOWING THEREAFTER
 
 **To Do:**
 * Tests
+* Get sourcemaps working again
+* More examples of AtScript (annotations, etc.)
+* More examples of ES6
+* Usage of future Angular modules (di.js, prophecy.js)
 
