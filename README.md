@@ -29,9 +29,6 @@ DO THE FOLLOWING THEREAFTER
 * Navigate to localhost:9000
 * $$$
 
-**Notes:**
-* Currently using fork of gulp-traceur for new Traceur API fixes.  Update to canon gulp-traceur when fork is merged
-
 **Wishes for a perfect world:**
 * System.get is manually added in index.html.  Sort of sucks to have to do this
 
